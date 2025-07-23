@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #111827;
+  --bg-secondary: #111928;
+  --foreground: #fff;
+  --primary: #007bff;
+  --primary-light: #cce4ff;
+  --primary-dark: #0057cc;
+  --secondary: #1a1a1a;
+  --muted: #9ca3af;
+  --navbar-height: 4rem;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--bg-secondary);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  /* ✅ Common text styles */
+  .text-heading {
+    @apply text-4xl md:text-6xl font-bold leading-tight text-textPrimary capitalize;
+  }
+
+  .text-subheading {
+    @apply text-xl md:text-2xl font-semibold text-textPrimary;
+  }
+
+  .text-paragraph {
+    @apply text-base md:text-lg text-textPrimary leading-relaxed;
+  }
+
+  /* ✅ Buttons */
+  .btn-primary {
+    @apply bg-primary border-2 border-primary text-black font-semibold py-3 px-6 rounded-lg shadow-btn transition hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply text-primary  border-2 border-primary py-3 px-6 rounded-lg transition hover:bg-opacity-75;
+  }
+
+  /* ✅ Navbar */
+  .navbar {
+    @apply bg-background bg-opacity-90 text-textPrimary flex items-center justify-between px-6 md:px-20 py-4 shadow-md;
+  }
+
+  .nav-link {
+    @apply hover:text-primary transition-colors duration-300;
+  }
+
+  /* ✅ Hero Section */
+  .hero-section {
+    @apply relative h-screen flex flex-col items-center justify-center text-center px-6 bg-background;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-overlay;
+  }
+  .heroBackground {
+    background-image: url("/l1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .serviceBackground {
+    background-image: url("/service1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ✅ Grid for Features */
+  .feature-grid {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-6 mt-8;
+  }
+
+  .feature-card {
+    @apply flex flex-col items-center justify-center bg-borderColor p-6 rounded-lg text-center;
+  }
+
+  .feature-icon {
+    @apply text-primary text-4xl mb-2;
+  }
+
+  .feature-title {
+    @apply text-lg font-semibold text-textPrimary;
+  }
+  .custom-phone-input {
+    background-color: #4a5568 !important; /* slate-700 */
+    color: white; /* Optional: Change text color */
+    border: 2px solid #cbd5e1 !important; /* slate-400 */
+    border-radius: 0.375rem; /* rounded-md */
+    padding: 0.5rem; /* Padding */
+    width: 100%; /* Full width */
+    transition: border-color 0.3s;
+  }
+}

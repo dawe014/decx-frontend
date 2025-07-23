@@ -1,0 +1,20 @@
+MONGODB_URL=mongodb+srv://dawittamiru014:l4iM2Zxw50ILqB3G@cluster0.frva65j.mongodb.net/decxmarketing
+EMAIL_USER=dawittamiru014@gmail.com
+EMAIL_PASS=yydbjxyjymhitebm
+
+
+# JWT Secrets (Replace with secure values)
+JWT_SECRET=oPdWASAmLuFD1gKSNZiDncKV4XmN3xys
+JWT_REFRESH_SECRET=E344BCEE75141
+
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+CHAPA_SECRET_KEY=CHASECK_TEST-8QLJIp2K3q5jQ3xUFsWLv73PpJfCdtP6
+CHAPA_PUBLIC_KEY=CHAPUBK_TEST-olicIyOcGFIPfcDBiYl7NDtLFexejMlZ
+
+AUTH_TRUST_HOST=http://localhost:3000
+NEXTAUTH_URL=http://localhost:3000
+
+INTERNAL_API_SECRET=your-super-secret-key-that-only-your-servers-know
+WEBSOCKET_SERVER_URL=http://localhost:8080

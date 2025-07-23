@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noImplicitAny": false,
+    "types": ["next-auth"],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "forceConsistentCasingInFileNames": true // Add this line
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/influencers/[id]/page.jsx",
+    "app/influencers/[id]/Modal.jsx",
+    "app/(decx)/find-influencer/[id]/page.jsx",
+    "app/(decx)/find-influencer/[id]/page.jsx",
+    "app/(decx)/find-influencer/page.jsx",
+    "app/post-need/[id]/page.jsx",
+    "app/post-need/page.jsx",
+    "app/(decx)/create-profile/step-1/page.jsx",
+    "app/(decx)/create-profile/step-2/page.jsx",
+    "app/(decx)/create-profile/step-3/page.jsx",
+    "app/(decx)/create-profile/step-5/page.jsx",
+    "app/(decx)/create-profile/step-6/page.jsx",
+    "app/(decx)/create-profile/step-4/page.jsx",
+    "app/(decx)/profile/preview/page.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
