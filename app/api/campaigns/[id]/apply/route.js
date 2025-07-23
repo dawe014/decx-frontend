@@ -4,7 +4,6 @@ import Campaign from "@/models/Campaign";
 import Influencer from "@/models/Influencer";
 import AuthUtils from "@/lib/authUtils";
 import { NextResponse } from "next/server";
-import { sendToUser } from "@/websocket/eventEmitter";
 import Notification from "@/models/Notification";
 import Brand from "@/models/Brand";
 
