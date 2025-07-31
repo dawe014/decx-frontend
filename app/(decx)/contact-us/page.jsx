@@ -25,10 +25,10 @@ const ContactInfo = () => (
         <div>
           <h3 className="font-semibold text-white">Phone</h3>
           <a
-            href="tel:+1234567890"
-            className="text-slate-300 hover:text-indigo-400 transition-colors"
+            href="tel:+251949540860"
+            className="text-slate-300 hover:text-indigo-400 transition-colors "
           >
-            +1 (234) 567-890
+            +251 (949) 540-860
           </a>
         </div>
       </div>
@@ -39,10 +39,10 @@ const ContactInfo = () => (
         <div>
           <h3 className="font-semibold text-white">Email</h3>
           <a
-            href="mailto:contact@decx.com"
+            href="mailto:contact@decxmarketing.com"
             className="text-slate-300 hover:text-indigo-400 transition-colors"
           >
-            contact@decx.com
+            contact@decxmarketing.com
           </a>
         </div>
       </div>
@@ -52,9 +52,7 @@ const ContactInfo = () => (
         </div>
         <div>
           <h3 className="font-semibold text-white">Address</h3>
-          <p className="text-slate-300">
-            123 Marketing Lane, <br /> Addis Ababa, Ethiopia
-          </p>
+          <p className="text-slate-300">Jimma|Addis Ababa, Ethiopia</p>
         </div>
       </div>
     </div>
@@ -285,18 +283,6 @@ export default function ContactPage() {
                 </button>
               </div>
             </form>
-            <div className="mt-8 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 h-80">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.6481793750866!2d38.76161637400497!3d9.00497899105494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85966d4a7039%3A0x73d32896f53a47d5!2sBole%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1688000000000!5m2!1sen!2set"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Google Maps Location"
-              />
-            </div>
           </div>
 
           <div className="lg:col-span-2 space-y-8">

@@ -2,6 +2,7 @@ import connectDB from "@/config/database"; // your MongoDB connection util
 import Application from "@/models/Application";
 import { NextResponse } from "next/server";
 import Campaign from "@/models/Campaign";
+import Brand from "@/models/Brand";
 import AuthUtils from "@/lib/authUtils";
 export async function GET(req, { params }) {
   try {
